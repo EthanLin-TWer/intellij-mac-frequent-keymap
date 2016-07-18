@@ -1,0 +1,31 @@
+{
+  "name": "intellij-keymap",
+  "version": "0.0.1",
+  "description": "A cheatsheet of Intellij(Mac OSX) more frequently used shortcuts extracted from official general keymap.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linesh-simplicity/intellij-mac-frequent-keymap.git"
+  },
+  "keywords": [
+    "intellij",
+    "keymap",
+    "mac",
+    "cheatsheet",
+    "子集"
+  ],
+  "author": "Linesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linesh-simplicity/intellij-mac-frequent-keymap/issues"
+  },
+  "homepage": "https://github.com/linesh-simplicity/intellij-mac-frequent-keymap#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.1.0",
+    "gulp-watch-less": "^1.0.1"
+  }
+}

@@ -1,2 +1,5 @@
 # Jekyll sites
 _site
+
+# NPM Modules
+node_modules
