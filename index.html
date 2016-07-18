@@ -17,6 +17,21 @@
 
             {% capture productivity %} {% include productivity.md %} {% endcapture %}
             {{ productivity | markdownify }}
+
+            {% capture language-elements %} {% include language-elements.md %} {% endcapture %}
+            {{ language-elements | markdownify }}
+
+            {% capture navigation %} {% include navigation.md %} {% endcapture %}
+            {{ navigation | markdownify }}
+
+            {% capture refactoring %} {% include refactoring.md %} {% endcapture %}
+            {{ refactoring | markdownify }}
+
+            {% capture searching %} {% include searching.md %} {% endcapture %}
+            {{ searching | markdownify }}
+
+            {% capture runtime %} {% include runtime.md %} {% endcapture %}
+            {{ runtime | markdownify }}
         </div>
     </body>
 
