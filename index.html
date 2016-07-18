@@ -7,11 +7,732 @@
         <title>Intellij快捷键精简子集</title>
 
         <link rel="stylesheet" href="dist/intellij-keymap.css" >
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+        <link rel="stylesheet" href="dist/pure-min.css">
     </head>
 
     <body>
+
         <div class="intellij-keymap-all-container">
+
+            <h2>编辑（Editing）</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">基本代码补全</td>
+                  <td style="text-align: left">^+Space</td>
+                  <td style="text-align: left">一般都用这个补全，变量命名时及方法补全时常用</td>
+                  <td style="text-align: left">Code/Completion/Basic</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">智能补全</td>
+                  <td style="text-align: left">^+⇧+Space</td>
+                  <td style="text-align: left">是否有必要记得两个快捷键？可以统一设成一个</td>
+                  <td style="text-align: left">Code/Completion/SmartType</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">语句补全</td>
+                  <td style="text-align: left">⇧+⌘+Enter</td>
+                  <td style="text-align: left">直接补全当前语句，在括号特别多时非常有用</td>
+                  <td style="text-align: left">Complete Current Statement</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">从上方开始一行</td>
+                  <td style="text-align: left">⌥+⌘+Enter</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Start New Line Before Current</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">从下方开始一行</td>
+                  <td style="text-align: left">⇧+Enter</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Start New Line</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">上移/下移一行</td>
+                  <td style="text-align: left">⇧+⌥+↑/↓</td>
+                  <td style="text-align: left">上下移一行。一般用于以单行出现的元素，否则会破坏元素间的关系</td>
+                  <td style="text-align: left">Move Line Up/Down</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">上移/下移一个块</td>
+                  <td style="text-align: left">⇧+⌘+↑/↓</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Move Statement Up/Down</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">选中一个代码块</td>
+                  <td style="text-align: left">⌥+↑</td>
+                  <td style="text-align: left">常用</td>
+                  <td style="text-align: left">Extend Selection</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">取消代码块选中</td>
+                  <td style="text-align: left">⌥+↓</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Shrink Selection</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">重复当前行</td>
+                  <td style="text-align: left">⌘+D</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Duplicate Current Line or Block</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">复制并且不删除当前行</td>
+                  <td style="text-align: left">⌘+C</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Edit/Copy</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">剪切当前行并复制到粘贴板</td>
+                  <td style="text-align: left">⌘+X</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Edit/Cut</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">关闭当前标签</td>
+                  <td style="text-align: left">⌘+W</td>
+                  <td style="text-align: left">跟通常编辑器快捷键一致</td>
+                  <td style="text-align: left">Edit Tabs/Close</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">注释当前行</td>
+                  <td style="text-align: left">⌘+/</td>
+                  <td style="text-align: left">随手一注释</td>
+                  <td style="text-align: left">Comment with Line Comment</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">优化import</td>
+                  <td style="text-align: left">^+⌥+O</td>
+                  <td style="text-align: left">没啥用</td>
+                  <td style="text-align: left">Optimize Imports</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">格式化代码</td>
+                  <td style="text-align: left">⌥+⌘+L</td>
+                  <td style="text-align: left">没啥用</td>
+                  <td style="text-align: left">Reformat Code</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+
+                        <h2>生产力（Productivity）</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">模板插入</td>
+                  <td style="text-align: left">⌘+J</td>
+                  <td style="text-align: left">插入一个符合某结构特征的模板，详解见下</td>
+                  <td style="text-align: left">Insert live template</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">命令查询</td>
+                  <td style="text-align: left">⇧+⌘+S</td>
+                  <td style="text-align: left">以名称的形式查询某个操作或快捷键，是声明式编程思想的践行者</td>
+                  <td style="text-align: left">Find actions</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">意图预测与智能帮助</td>
+                  <td style="text-align: left">⌥+Enter</td>
+                  <td style="text-align: left">简单重构、移除死代码、结构调整、自动导包等</td>
+                  <td style="text-align: left">Show intention actions</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+
+                        <h2>语言要素生成</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">测试、方法生成</td>
+                  <td style="text-align: left">^+Enter/ ⌘+N</td>
+                  <td style="text-align: left">非常常用于创建测试方法、构造方法、覆写接口方法、覆写基类方法</td>
+                  <td style="text-align: left">Code/Generate</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">创建类、文件、目录</td>
+                  <td style="text-align: left">⌘+N</td>
+                  <td style="text-align: left">常用</td>
+                  <td style="text-align: left">Code/Generate</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">创建override方法</td>
+                  <td style="text-align: left">^+O</td>
+                  <td style="text-align: left">有用</td>
+                  <td style="text-align: left">Override Methods</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">创建接口方法实现</td>
+                  <td style="text-align: left">^+I</td>
+                  <td style="text-align: left">有用</td>
+                  <td style="text-align: left">Implement Methods</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+
+                        <h2>导航（Navigation）</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                  <th>&nbsp;</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">转到方法/字段的声明</td>
+                  <td style="text-align: left">⌘+B</td>
+                  <td style="text-align: left">调试跟代码都很常用</td>
+                  <td style="text-align: left">Navigation/Declaration</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">转到方法/字段的实现点</td>
+                  <td style="text-align: left">Navigation/Implementation(s)</td>
+                  <td style="text-align: left">⌥+⌘+B</td>
+                  <td style="text-align: left">同上，常用</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">转到方法/字段类型的类定义处</td>
+                  <td style="text-align: left">⇧+⌘+B/ ⇧+^+B</td>
+                  <td style="text-align: left">常由下两个快捷键取代</td>
+                  <td style="text-align: left">Navigation/Type Declaration</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">当前类与单元测试间跳转</td>
+                  <td style="text-align: left">⇧+⌘+T</td>
+                  <td style="text-align: left">非常方便</td>
+                  <td style="text-align: left">Navigate/Test</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">跳转到当前类的基类</td>
+                  <td style="text-align: left">⌘+U</td>
+                  <td style="text-align: left">配套食用，效果更佳</td>
+                  <td style="text-align: left">Super Method</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">类继承体系</td>
+                  <td style="text-align: left">^+H</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Type Hierarchy</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">方法继承层次</td>
+                  <td style="text-align: left">⇧+⌘+H</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Method Hierarchy</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">当前方法调用链</td>
+                  <td style="text-align: left">^+⌥+H</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Call Hierarchy</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">本类及所有基类方法列表</td>
+                  <td style="text-align: left">⌘+F12</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">File Structure</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">类/方法/字段定义的快速预览</td>
+                  <td style="text-align: left">⌥+Space/ ⌘+Y</td>
+                  <td style="text-align: left">小览实现，一般可以看到方法/字段参数、返回值、前几行实现，快速的信息足够了</td>
+                  <td style="text-align: left">Quick Definition</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">方法文档快速预览</td>
+                  <td style="text-align: left">^+J</td>
+                  <td style="text-align: left">看文档，我不常用</td>
+                  <td style="text-align: left">Quick Documentation</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">方法参数快速预览</td>
+                  <td style="text-align: left">⌘+P</td>
+                  <td style="text-align: left">常用</td>
+                  <td style="text-align: left">Parameter Info</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">前一个标签</td>
+                  <td style="text-align: left">⇧+⌘+[</td>
+                  <td style="text-align: left">导航常用，不过是否能以其他方式取代，比如声明式使用类查找⌘+O等。仍在探索</td>
+                  <td style="text-align: left">Select Previous Tab</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">后一个标签</td>
+                  <td style="text-align: left">⇧+⌘+]</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Select Next Tab</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">往上一级</td>
+                  <td style="text-align: left">⌥+⌘+←/ ⌘+[</td>
+                  <td style="text-align: left">调代码，跟方法体系时，非常有用，下同</td>
+                  <td style="text-align: left">Navigate/Back</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">往下一级</td>
+                  <td style="text-align: left">⌥+⌘+→/ ⌘+]</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Navigate/Forward</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">转到下一个错误或警告</td>
+                  <td style="text-align: left">F2</td>
+                  <td style="text-align: left">代码见红时，常用此快捷键快速定位，并配合万能快捷键⌥+Enter快速修复</td>
+                  <td style="text-align: left">Next Highlighted Error</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">提示错误信息</td>
+                  <td style="text-align: left">⌘+F1</td>
+                  <td style="text-align: left">不常用</td>
+                  <td style="text-align: left">Error Description</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">意图预测与智能帮助</td>
+                  <td style="text-align: left">⌥+Enter</td>
+                  <td style="text-align: left">简单重构、移除死代码、结构调整、自动导包等</td>
+                  <td style="text-align: left">Show intention actions</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">project视图</td>
+                  <td style="text-align: left">⌘+1</td>
+                  <td style="text-align: left">有时导航项目结构时常用，不知是否有替代方案</td>
+                  <td style="text-align: left">Other/Project</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">search/find视图</td>
+                  <td style="text-align: left">⌘+3</td>
+                  <td style="text-align: left">除了这几个，其他视图都不常用</td>
+                  <td style="text-align: left">Other/Find</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">run视图</td>
+                  <td style="text-align: left">⌘+4</td>
+                  <td style="text-align: left">有时开关测试视图</td>
+                  <td style="text-align: left">Other/Run</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">debug视图</td>
+                  <td style="text-align: left">⌘+5</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Other/Debug</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">VCS视图</td>
+                  <td style="text-align: left">⌘+9</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Other/VCS</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">terminal视图</td>
+                  <td style="text-align: left">* ⌘+0</td>
+                  <td style="text-align: left">自己改过，一是和各种视图快捷键保持一致，另外是原生的⌘+F12实在有点难按</td>
+                  <td style="text-align: left">Other/Terminal</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">隐藏所有工具视图</td>
+                  <td style="text-align: left">⇧+⌘+F12</td>
+                  <td style="text-align: left">同时开了工程和终端视图时一键回编程页面</td>
+                  <td style="text-align: left">Hide All Tool Windows</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">跳转到第…行</td>
+                  <td style="text-align: left">Navigate/Line…</td>
+                  <td style="text-align: left">⌘+L</td>
+                  <td style="text-align: left">属于细节型的活，能少用就多思考替代方案</td>
+                  <td>&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+
+                        <h2>重构（Refactor）</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">复制类/目录等</td>
+                  <td style="text-align: left">F5</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Refactor/Copy</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">移动类/目录等</td>
+                  <td style="text-align: left">F6</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Refactor/Move</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">元素(类/方法/变量/…)重命名</td>
+                  <td style="text-align: left">⇧+F6</td>
+                  <td style="text-align: left">最常用的重构快捷键之一了吧</td>
+                  <td style="text-align: left">Refactor/Rename</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">类/方法签名修改</td>
+                  <td style="text-align: left">⌘+F6</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Refactor/Change Signature</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">字段(类级别)抽取</td>
+                  <td style="text-align: left">⌥+⌘+F</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Extract/Field</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">常量(类级别)抽取</td>
+                  <td style="text-align: left">⌥+⌘+C</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Extract/Constant</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">变量(方法级别)抽取</td>
+                  <td style="text-align: left">⌥+⌘+V</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Extract/Variable</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">参数(方法级别)抽取</td>
+                  <td style="text-align: left">⌥+⌘+P</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Extract/Parameter</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">方法抽取</td>
+                  <td style="text-align: left">⌥+⌘+M</td>
+                  <td style="text-align: left">最常用的重构快捷键之一</td>
+                  <td style="text-align: left">Extract/Method</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">方法内联</td>
+                  <td style="text-align: left">⌥+⌘+N</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Refactor/Inline</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+
+                        <h2>搜索（Searching)</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">搜索</td>
+                  <td style="text-align: left">⌘+F</td>
+                  <td style="text-align: left">通常快捷键</td>
+                  <td style="text-align: left">Find/Find</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">替换</td>
+                  <td style="text-align: left">⌘+R</td>
+                  <td style="text-align: left">正则发挥作用的地方</td>
+                  <td style="text-align: left">Find/Replace</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查找引用点</td>
+                  <td style="text-align: left">⌥+F7</td>
+                  <td style="text-align: left">重构或调试的时候经常用到，使用频率高</td>
+                  <td style="text-align: left">Find/Find usages</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查找类</td>
+                  <td style="text-align: left">⌘+O</td>
+                  <td style="text-align: left">声明式编程，使用频率很高的快捷键</td>
+                  <td style="text-align: left">Navigate/Class</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查找文件</td>
+                  <td style="text-align: left">⇧+⌘+O</td>
+                  <td style="text-align: left">同上，使用频率很高</td>
+                  <td style="text-align: left">Navigate/File</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查找symbol</td>
+                  <td style="text-align: left">⌥+⌘+O</td>
+                  <td style="text-align: left">基本不用，不知道与上两者有什么区别</td>
+                  <td style="text-align: left">Navigate/Symbol</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">全项目文本搜索</td>
+                  <td style="text-align: left">⇧+⌘+F</td>
+                  <td style="text-align: left">搜索引用点和文本出现、改bug时非常有用</td>
+                  <td style="text-align: left">Find/Find in path</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查找下一个</td>
+                  <td style="text-align: left">⌘+G</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Find/Find Next</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查找上一个</td>
+                  <td style="text-align: left">⇧+⌘+G</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Find/Find Previous</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+
+
+                        <h2>运行时（Runtime）</h2>
+
+            <table class="pure-table pure-table-bordered" >
+              <thead>
+                <tr>
+                  <th style="text-align: left">Operation</th>
+                  <th style="text-align: left">Mac OSX 10.5+</th>
+                  <th style="text-align: left">Comments</th>
+                  <th style="text-align: left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: left">编译</td>
+                  <td style="text-align: left">⌘+F9</td>
+                  <td style="text-align: left">调bug时可能是忘了编译最新代码</td>
+                  <td style="text-align: left">Make Project</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">运行(最近一个测试)</td>
+                  <td style="text-align: left">^+R</td>
+                  <td style="text-align: left">非常有用，有时可能节省在测试代码和源文件之间的切换</td>
+                  <td style="text-align: left">Run/Run</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">调试</td>
+                  <td style="text-align: left">^+D</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Run/Debug</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">打断点/取消断点</td>
+                  <td style="text-align: left">⌘+F8</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Toggle Breakpoints</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">查看所有断点</td>
+                  <td style="text-align: left">⇧+⌘+F8</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">View Breakpoints</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">跳入</td>
+                  <td style="text-align: left">F7</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Run/Step Into</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">跳出</td>
+                  <td style="text-align: left">⇧+F8</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Run/Step Out</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">智能跳入(当前行多个调用时)</td>
+                  <td style="text-align: left">⇧+F7</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">跳过(下一步)</td>
+                  <td style="text-align: left">F8</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Run/Step Over</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">求表达式值</td>
+                  <td style="text-align: left">⌥+F8</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Evaluate Expression</td>
+                </tr>
+                <tr>
+                  <td style="text-align: left">停止调试</td>
+                  <td style="text-align: left">⌘+F2</td>
+                  <td style="text-align: left">&nbsp;</td>
+                  <td style="text-align: left">Run/Stop</td>
+                </tr>
+              </tbody>
+            </table>
+
+
+        </div>
+
+        <!-- <div class="intellij-keymap-all-container">
             {% capture editing %} {% include editing.md %} {% endcapture %}
             {{ editing | markdownify }}
 
@@ -32,7 +753,7 @@
 
             {% capture runtime %} {% include runtime.md %} {% endcapture %}
             {{ runtime | markdownify }}
-        </div>
+        </div> -->
     </body>
 
 </html>
