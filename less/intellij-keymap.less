@@ -2,29 +2,45 @@
     box-sizing: border-box;
 }
 
+
 body {
-    font-family: 'Open Sans', 'Microsoft YaHei', sans-serif;
+    // font-family: 'Open Sans', 'Microsoft YaHei', sans-serif;
+    margin: 0;
+}
+
+.col {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
 }
 
 div[id] {
-    display: inline-block;
+    display: block;
+
+    margin: 20px;
+    margin-bottom: 70px;
 }
 
 h2 {
+    margin: 0 20px 30px 20px ;
+    padding: 0 20px 10px 20px;
+    border-bottom: solid 1px #ccc;
+
     text-align: center;
     font-weight: normal;
 }
 
 table {
+    width: 100%;
     tr, th {
-        text-align: left;
+        text-align: center;
     }
 
     thead tr th {
-        font-size: 0.6em !important;
+        font-size: 15px !important;
     }
 
     tbody tr td {
-        font-size: 0.5em !important;
+        font-size: 0.7em !important;
     }
 }
