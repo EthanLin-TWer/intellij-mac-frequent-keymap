@@ -9,11 +9,6 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 
 ![](intellij-keymap-homepage.png)
 
-## 声明
-
-* 本子集的选择标准是主观的。可以通过其他工具实现的，不录入，比如VCS；目前，我使用Intellij IDEA写Java代码最多
-* 本cheatsheet全部以Intellij Mac OSX 10.5+这套keymap为基准，除了一个快捷键以外，全部使用该模板默认快捷键，以保持最大限度通用性、减少维护成本
-
 ## 常用快捷键
 
 本章主要分七个部分展开总结：生产力大杀器、编辑、语言要素生成、导航、重构、搜索、运行时。版本控制的部分未录入，原因是我倾向于使用命令行提交，而非IDE内置VCS支持。见仁见智。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut找到。
@@ -192,6 +187,15 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 | 跳过(下一步) | F8 | | Run/Step Over |
 | 求表达式值 | ⌥+F8 | | Evaluate Expression |
 | 停止调试 | ⌘+F2 | | Run/Stop |
+
+## 声明
+
+* 本子集的选择标准是主观的。可以通过其他工具实现的不录入，比如VCS；我觉得没用的功能不录入，比如书签等；对于生产率贡献感觉不是特别大的不录入，比如~~想不到~~。目前，我使用Intellij IDEA写Java代码最多
+* 本cheatsheet全部以Intellij Mac OSX 10.5+这套keymap为基准，除了一个快捷键以外，全部使用该模板默认快捷键，以保持最大限度通用性、减少维护成本
+
+## Thanks to...
+
+* 主页样式乃是![](https://avatars3.githubusercontent.com/u/657447?v=3&s=20)[ Ruoran Liu](https://github.com/lrrfantasy)~~上班时~~抽出一点时间设计调整搞定的。毕竟我CSS还很菜~
 
 ## TODOLIST
 
