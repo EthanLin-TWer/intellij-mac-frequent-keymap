@@ -7,7 +7,7 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 * 想要快速上手Intellij快捷键的同学。毕竟大而无当，等于无用。优先学习最高效最常用的快捷键，节省时间，提高效率
 * **备查**。这个是最主要的目的，存个书签或者记个网址，需要的时候只要有网络，随时可查
 
-![](http://7xqu8w.com1.z0.glb.clouddn.com/intellij-keymap-homepage.png)
+![](intellij-keymap-homepage.png)
 
 ## 声明
 
