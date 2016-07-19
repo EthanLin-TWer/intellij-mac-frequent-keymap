@@ -16,9 +16,9 @@
 
 ## 常用快捷键
 
-本章主要分七个部分展开总结：生产力大杀器、语言要素生成、编辑、导航、重构、搜索、运行时。版本控制的部分未录入，原因是我倾向于使用命令行提交，而非IDE内置VCS支持。见仁见智。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut找到。
+本章主要分七个部分展开总结：生产力大杀器、编辑、语言要素生成、导航、重构、搜索、运行时。版本控制的部分未录入，原因是我倾向于使用命令行提交，而非IDE内置VCS支持。见仁见智。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut找到。
 
-关于快捷本身的理念和思维模式的详细讨论，可以参考我在Gitbook上 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 一节中展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时这本书旨在探讨如何更高校地使用Mac进行编程工作，有兴趣的朋友也可前往阅读反馈：[Mac优雅的工具集——关于优雅地使用Mac OS的理念、想法、工具与实践集](http://mac.linesh.tw)。
+关于快捷本身的理念和思维模式的详细讨论，可以参考我在Gitbook上 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 一节中展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时这本书旨在探讨如何更高效地使用Mac进行编程工作，有兴趣的朋友也可前往阅读反馈：[Mac优雅的工具集——关于优雅地使用Mac OS的理念、想法、工具与实践集](http://mac.linesh.tw)。
 
 ### 生产力（Productivity）
 
