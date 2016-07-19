@@ -8,7 +8,7 @@ body {
 }
 
 @media screen and (min-width: 830px) {
-    .intellij-keymap-container-screen {
+    .intellij-keymap-container-screen-three-columns {
         .col {
             display: inline-block;
             vertical-align: top;
@@ -16,20 +16,47 @@ body {
         }
     }
 
-    .intellij-keymap-container-mobile {
+    .intellij-keymap-container-screen-two-columns {
+        display: none;
+    }
+
+    .intellij-keymap-container-screen-one-column {
         display: none;
     }
 }
 
-@media screen and (max-width: 830px) {
-    .intellij-keymap-container-screen {
+@media screen and (max-width: 830px) and (min-width: 705px){
+    .intellij-keymap-container-screen-three-columns {
         display: none;
     }
 
-    .intellij-keymap-container-mobile {
+    .intellij-keymap-container-screen-two-columns {
         .col {
             display: inline-block;
             vertical-align: top;
+        }
+    }
+
+    .intellij-keymap-container-screen-one-column {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 705px) {
+
+    .intellij-keymap-container-screen-three-columns {
+        display: none;
+    }
+
+    .intellij-keymap-container-screen-two-columns {
+        display: none;
+    }
+    
+    .intellij-keymap-container-screen-one-column {
+        .col {
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
         }
     }
 }

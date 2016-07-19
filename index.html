@@ -12,7 +12,7 @@
 
     <body>
 
-        <div class="intellij-keymap-container-screen">
+        <div class="intellij-keymap-container-screen-three-columns">
             <div class="col">
                 {% include navigating.html %}
             </div>
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <div class="intellij-keymap-container-mobile">
+        <div class="intellij-keymap-container-screen-two-columns">
             <div class="col">
                 {% include navigating.html %}
                 {% include editing.html %}
@@ -43,6 +43,17 @@
                 {% include searching.html %}
             </div>
 
+        </div>
+
+        <div class="intellij-keymap-container-screen-one-column">
+            <div class="col">
+                {% include navigating.html %}
+                {% include editing.html %}
+                {% include productivity.html %}
+                {% include language-elements.html %}
+                {% include refactoring.html %}
+                {% include searching.html %}
+            </div>
         </div>
     </body>
 
