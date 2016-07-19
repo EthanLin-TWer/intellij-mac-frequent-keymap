@@ -5,7 +5,9 @@
 Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文档和资料，从[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)到市面能看到的大多数资料和总结。这个cheatsheet，是我结合平时的工作和个人项目经验，整理总结出的一套最常用、最精简的快捷键子集。适合以下场景/人群使用：
 
 * 想要快速上手Intellij快捷键的同学。毕竟大而无当，等于无用。优先学习最高效最常用的快捷键，节省时间，提高效率
+* 想要不断对比、精简你的快捷键集合的同学。只记住最有用的快捷键
 * **备查**。这个是最主要的目的，存个书签或者记个网址，需要的时候只要有网络，随时可查
+* 尝试提高思维层级，从理念和思维模式的视角来看待编程和工具
 
 ![](intellij-keymap-homepage.png)
 
