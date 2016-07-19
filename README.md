@@ -20,6 +20,7 @@
 
 关于快捷本身的理念和思维模式的详细讨论，可以参考我在Gitbook上 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 一节中展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时这本书旨在探讨如何更高效地使用Mac进行编程工作，有兴趣的朋友也可前往阅读反馈：[Mac优雅的工具集——关于优雅地使用Mac OS的理念、想法、工具与实践集](http://mac.linesh.tw)。
 
+
 ### 生产力（Productivity）
 
 | Operation | Mac OSX 10.5+ | Comments | Description |
@@ -48,7 +49,7 @@
 
 所有元素都拥有的一些后向声明选择，仅选择我认为常用的：
 
-| Operation | Postfix Completion Keyword | Expands To | Comments |
+| Operation | Postfix Completion Keyword | Expands To | Comments | 
 | :---: | :---: | :---: | :---: |
 | 变量声明 | element.`var` | `Type $name = element;` | 必备技能，声明式使用的典范 |
 | 转换为类字段 | element.`field` | `private $Type element; ` | 刚发现的 |
@@ -58,7 +59,7 @@
 
 然后，对于特定的元素类型，有的后向声明还有非常实用的选项，比如字符串的判空、布尔值的if-else、列表的循环等等：
 
-| ElementType | Operation | Postfix Completion Keyword | Expands To | Comments |
+| ElementType | Operation | Postfix Completion Keyword | Expands To | Comments | 
 | :--- | :---: | :---: | :---: | :---: |
 | 字符串 | 判空 | string.`null`| `if (string == null) {}` | |
 | | 判非空 | string.`notnull` | `if (string != null) {}` | |
@@ -108,7 +109,7 @@
 | Operation | Mac OSX 10.5+ | Comments | Description |
 | :---:      | :---:        | :---:          | :---     |
 | 转到方法/字段的声明 | ⌘+B | 调试跟代码都很常用 | Navigation/Declaration |
-| 转到方法/字段的实现点 | Navigation/Implementation(s) | ⌥+⌘+B | 同上，常用 |
+| 转到方法/字段的实现点 | ⌥+⌘+B | 同上，常用 | Navigation/Implementation(s) |
 | 转到方法/字段类型的类定义处 | ⇧+⌘+B/ ⇧+^+B | 常由下两个快捷键取代 | Navigation/Type Declaration |
 | 当前类与单元测试间跳转 | ⇧+⌘+T | 非常方便 | Navigate/Test |
 |||||
@@ -139,7 +140,7 @@
 | terminal视图 | * ⌘+0 | 自己改过，一是和各种视图快捷键保持一致，另外是原生的⌘+F12实在有点难按 | Other/Terminal |
 | 隐藏所有工具视图 | ⇧+⌘+F12 | 同时开了工程和终端视图时一键回编程页面 | Hide All Tool Windows |
 |||||
-| 跳转到第...行 | Navigate/Line... | ⌘+L | 属于细节型的活，能少用就多思考替代方案 |
+| 跳转到第...行 | ⌘+L | 属于细节型的活，能少用就多思考替代方案 | Navigate/Line... |
 
 
 ### 重构（Refactor）
