@@ -1,24 +1,22 @@
 # intellij-mac-frequent-keymap
 
-从[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)中经过使用精简下来的一套快捷键子集，是平常工作和个人项目中最经常使用的快捷键集合。
+本仓库是一个经过精简的Intellij快捷键子集，并提供在线的cheatsheet快速备查表：[intellij.linesh.tw](http://intellij.linesh.tw)。
 
-在线cheatsheet快速查询表在这里： [intellij.linesh.tw](http://intellij.linesh.tw)。
+Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文档和资料，从[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)到市面能看到的大多数资料和总结。这个cheatsheet，是我结合平时的工作和个人项目经验，整理总结出的一套最常用、最精简的快捷键子集。适合以下场景/人群使用：
 
-## 适合的阅读人群/本快捷键表作用
-
-* 新手入门，快速上手最常用的快捷键，节省时间，提高效率
-* 备查
+* 想要快速上手Intellij快捷键的同学。毕竟大而无当，等于无用。优先学习最高效最常用的快捷键，节省时间，提高效率
+* **备查**。这个是最主要的目的，存个书签或者记个网址，需要的时候只要有网络，随时可查
 
 ## 声明
 
-* 本子集选取经过我一年工作学习以来仔细收集、总结、排除，选择标准是主观的。目前我使用Intellij IDEA写Java代码最多
-* 该表是Mac系统下Intellij的keymap，以Mac OSX 10.5+这套模板为基准，除了一个快捷键以外，全部使用该模板默认快捷键以保持最大限度一致
+* 本子集的选择标准是主观的。可以通过其他工具实现的，不录入，比如VCS；目前，我使用Intellij IDEA写Java代码最多
+* 本cheatsheet全部以Intellij Mac OSX 10.5+这套keymap为基准，除了一个快捷键以外，全部使用该模板默认快捷键，以保持最大限度通用性、减少维护成本
 
 ## 常用快捷键
 
 本章主要分七个部分展开总结：生产力大杀器、编辑、语言要素生成、导航、重构、搜索、运行时。版本控制的部分未录入，原因是我倾向于使用命令行提交，而非IDE内置VCS支持。见仁见智。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut找到。
 
-关于快捷本身的理念和思维模式的详细讨论，可以参考我在Gitbook上 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 一节中展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时这本书旨在探讨如何更高效地使用Mac进行编程工作，有兴趣的朋友也可前往阅读反馈：[Mac优雅的工具集——关于优雅地使用Mac OS的理念、想法、工具与实践集](http://mac.linesh.tw)。
+关于快捷本身的理念和思维模式，可以参考我在 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 一节中展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时[这本书](http://mac.linesh.tw)旨在探讨如何更高效地使用Mac进行编程工作，有兴趣的朋友可前往阅读反馈。
 
 
 ### 生产力（Productivity）
@@ -199,5 +197,6 @@
 * [ ] 将本页所列出的快捷键和思想以UI友好的方式展示、备查
 * [ ] 添加模板补全和后向声明部分的快捷键
 * [ ] Responsiveness
+* [ ] 打印Print支持
 * [ ] 寻找或自己造一个轮子，能将日常intellij操作的快捷键记录下来，分析频率，同样展示在主页
 * [ ] 自动化以上两步：本文更新到展示主页的同步、以及每天频率的自动提交与更新
