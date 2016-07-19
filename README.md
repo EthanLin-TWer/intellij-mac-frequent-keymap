@@ -2,6 +2,8 @@
 
 从[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)中经过使用精简下来的一套快捷键子集，是平常工作和个人项目中最经常使用的快捷键集合。
 
+在线cheatsheet快速查询表在这里： [intellij.linesh.tw](http://intellij.linesh.tw)。
+
 ## 适合的阅读人群/本快捷键表作用
 
 * 新手入门，快速上手最常用的快捷键，节省时间，提高效率
@@ -190,7 +192,9 @@
 
 ## TODOLIST
 
-* [ ] 新建一个子域名：intellij.linesh.tw，用于将本页所列出的快捷键和思想以UI友好的方式展示、备查
+* [x] 新建一个子域名：intellij.linesh.tw
+* [ ] 将本页所列出的快捷键和思想以UI友好的方式展示、备查
+* [ ] 添加模板补全和后向声明部分的快捷键
 * [ ] Responsiveness
 * [ ] 寻找或自己造一个轮子，能将日常intellij操作的快捷键记录下来，分析频率，同样展示在主页
 * [ ] 自动化以上两步：本文更新到展示主页的同步、以及每天频率的自动提交与更新
