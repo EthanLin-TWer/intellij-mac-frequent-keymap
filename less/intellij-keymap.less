@@ -2,16 +2,36 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
 
-.col {
-    display: inline-block;
-    vertical-align: top;
-    width: 33%;
+@media screen and (min-width: 830px) {
+    .intellij-keymap-container-screen {
+        .col {
+            display: inline-block;
+            vertical-align: top;
+            width: 33%;
+        }
+    }
+
+    .intellij-keymap-container-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .intellij-keymap-container-screen {
+        display: none;
+    }
+
+    .intellij-keymap-container-mobile {
+        .col {
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
 }
 
 h2 {

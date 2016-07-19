@@ -12,7 +12,7 @@
 
     <body>
 
-        <div class="intellij-keymap-all-container">
+        <div class="intellij-keymap-container-screen">
             <div class="col">
                 {% include navigating.html %}
             </div>
@@ -30,6 +30,20 @@
             </div>
         </div>
 
+        <div class="intellij-keymap-container-mobile">
+            <div class="col">
+                {% include navigating.html %}
+                {% include editing.html %}
+            </div>
+
+            <div class="col">
+                {% include productivity.html %}
+                {% include language-elements.html %}
+                {% include refactoring.html %}
+                {% include searching.html %}
+            </div>
+
+        </div>
     </body>
 
 </html>
