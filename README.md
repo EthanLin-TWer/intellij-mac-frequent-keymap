@@ -1,6 +1,8 @@
 # intellij-mac-frequent-keymap
 
-本仓库是一个经过精简的Intellij快捷键子集，并提供在线的cheatsheet快速备查表：[intellij.linesh.tw](http://intellij.linesh.tw)。
+本仓库是一个经过精简的Intellij快捷键子集，并提供在线的cheatsheet快速备查表：
+
+> [intellij.linesh.tw](http://intellij.linesh.tw)。
 
 Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文档和资料，从[官方推荐的keymap](https://resources.jetbrains.com/assets/products/intellij-idea/IntelliJIDEA_ReferenceCard_mac.pdf)到市面能看到的大多数资料和总结。这个cheatsheet，是我结合平时的工作和个人项目经验，整理总结出的一套最常用、最精简的快捷键子集。适合以下场景/人群使用：
 
@@ -15,7 +17,7 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 
 本章主要分七个部分展开总结：生产力大杀器、编辑、语言要素生成、导航、重构、搜索、运行时。版本控制的部分未录入，原因是我倾向于使用命令行提交，而非IDE内置VCS支持。见仁见智。最后一栏是该操作在IDEA中的操作名称，可以在keymap中检索对应的action/shortcut找到。
 
-关于快捷本身的理念和思维模式，可以参考我在 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 一节中展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时[这本书](http://mac.linesh.tw)旨在探讨如何更高效地使用Mac进行编程工作，有兴趣的朋友可前往阅读反馈。
+关于快捷本身的理念和思维模式，可以参考我在 [Mac优雅的工具集——Intellij快捷键](http://mac.linesh.tw/publish/development-tools/intellij-shortcuts.html) 或 [segmentfault](https://segmentfault.com/a/1190000006013097) 上展开的讨论。总结起来就两句话：**更高的抽象层次** 和 **声明式使用**。同时[这本书](http://mac.linesh.tw)旨在探讨如何更高效地使用Mac进行编程工作，有兴趣的朋友可前往阅读反馈。
 
 
 ### 生产力（Productivity）
