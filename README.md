@@ -48,7 +48,7 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 
 所有元素都拥有的一些后向声明选择，仅选择我认为常用的：
 
-| Operation | Postfix Completion Keyword | Expands To | Comments | 
+| Operation | Postfix Completion Keyword | Expands To | Comments |
 | :---: | :---: | :---: | :---: |
 | 变量声明 | element.`var` | `Type $name = element;` | 必备技能，声明式使用的典范 |
 | 转换为类字段 | element.`field` | `private $Type element; ` | 刚发现的 |
@@ -58,7 +58,7 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 
 然后，对于特定的元素类型，有的后向声明还有非常实用的选项，比如字符串的判空、布尔值的if-else、列表的循环等等：
 
-| ElementType | Operation | Postfix Completion Keyword | Expands To | Comments | 
+| ElementType | Operation | Postfix Completion Keyword | Expands To | Comments |
 | :--- | :---: | :---: | :---: | :---: |
 | 字符串 | 判空 | string.`null`| `if (string == null) {}` | |
 | | 判非空 | string.`notnull` | `if (string != null) {}` | |
@@ -200,13 +200,3 @@ Intellij的快捷键多而繁杂，处女座的我也由此阅读了大量的文
 ## Thanks to...
 
 * 主页样式乃是![](https://avatars3.githubusercontent.com/u/657447?v=3&s=20)[ Ruoran Liu](https://github.com/lrrfantasy)~~上班时~~抽出一点时间设计调整搞定的。毕竟我CSS还很菜~
-
-## TODOLIST
-
-* [x] 新建一个子域名：intellij.linesh.tw
-* [ ] 将本页所列出的快捷键和思想以UI友好的方式展示、备查
-* [ ] 添加模板补全和后向声明部分的快捷键
-* [ ] Responsiveness
-* [ ] 打印Print支持
-* [ ] 寻找或自己造一个轮子，能将日常intellij操作的快捷键记录下来，分析频率，同样展示在主页
-* [ ] 自动化以上两步：本文更新到展示主页的同步、以及每天频率的自动提交与更新
