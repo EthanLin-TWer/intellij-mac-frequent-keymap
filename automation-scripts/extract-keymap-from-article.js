@@ -1,10 +1,28 @@
 const fs = require('fs')
 const sample = fs.readFileSync('sample.md', 'utf-8').toString()
 
+sanityCheck(sample)
 extractKeymapData(sample)
 
 function sanityCheck(sample) {
+    const headerCheck = operationFieldComesBeforeShortcutField(sample)
+    const allSectionsWritenInh3Orh4 = markdownStructure(sample)
 
+    if (headerCheck && allSectionsWritenInh3Orh4) { console.log('all check passes') }
+
+    function markdownStructure(sample) {
+        const predefined_sections = ['Productivity', 'Live Template', 'Postfix Completion', 'Language Elements',
+                                     'Editing', 'Navigation', 'Refactor', 'Searching', 'Runtime']
+        return sample.match(/#{3,4}.*/gm).filter(h3orh4 => {
+            return predefined_sections.find(pre => h3orh4.includes(pre)) === undefined
+        }).length === 0
+    }
+
+    function operationFieldComesBeforeShortcutField(sample) {
+        return sample.match(/^\|.*\|$/gm).filter(line => { line.includes('Operation')
+            && (line.includes('Mac') || line.includes('Windows'))
+        }).filter(header => header.match(/(Mac|Windows).*Operation/i)).length === 0
+    }
 }
 
 function extractKeymapData(sample) {
@@ -45,5 +63,5 @@ function extractKeymapData(sample) {
         })
     })
 
-    console.log(keymaps)
+    // console.log(keymaps)
 }
