@@ -12,6 +12,7 @@ function extractKeymapData(sample) {
                                 .filter(line => !line.includes('Operation'))        // table header line
                                 .filter(line => line.replace(/(\|)*/, '').length > 0) // separator
 
+
     const indecies = sample.match(/#{3,4}.*/gm).map(section => {
         return {
             title: /#*\s*(.*)（/gm.exec(section)[1],
@@ -35,7 +36,13 @@ function extractKeymapData(sample) {
     sections.forEach(section => keymaps[section.title] = [])
     all_keymaps.forEach(keymap => {
         const belongs = sections.filter(section => section.content.includes(keymap))[0].title
-        keymaps[belongs].push(keymap.match(/.*/g))
+        const value = keymap.match(/^(\|.*?)(\|.*?)\|/g)[0].split('|').filter(part => !!part.length)
+            .map(part => part.trim())
+
+        keymaps[belongs].push({
+            action: value[0],
+            shortcut: value[1]
+        })
     })
 
     console.log(keymaps)
