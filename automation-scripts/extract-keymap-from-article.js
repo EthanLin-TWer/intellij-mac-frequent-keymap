@@ -9,10 +9,10 @@ function sanityCheck(sample) {
     const allSectionsWritenInh3Orh4 = markdownStructure(sample)
 
     if (headerCheck && allSectionsWritenInh3Orh4) { console.log('all check passes') }
+    else console.log('boom!!! tests failing');
 
     function markdownStructure(sample) {
-        const predefined_sections = ['Productivity', 'Live Template', 'Postfix Completion', 'Language Elements',
-                                     'Editing', 'Navigation', 'Refactor', 'Searching', 'Runtime']
+        const predefined_sections = ['生产力', '模板补全', '后向声明', '语言要素生成', '编辑', '导航', '重构', '搜索', '运行时']
         return sample.match(/#{3,4}.*/gm).filter(h3orh4 => {
             return predefined_sections.find(pre => h3orh4.includes(pre)) === undefined
         }).length === 0
